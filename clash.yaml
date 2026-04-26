@@ -1,0 +1,27 @@
+proxies:
+- name: 自用vl-reality-vision-DMITYY5
+  type: vless
+  server: 154.17.29.89
+  port: 52916
+  uuid: d592cc1e-9aec-49b4-bb07-d8daa085e6ad
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+
+  reality-opts:
+    public-key: 4ZeGjNu5PUDlSXqbpf-WpdDTvGurkj8BUP0ERzu7qhw
+    short-id: fb2c36d6
+
+  servername: apple.com
+
+proxy-groups:
+- name: 节点选择
+  type: select
+  proxies:
+    - 自用vl-reality-vision-DMITYY5
+    - DIRECT
+
+rules:
+- MATCH,节点选择
