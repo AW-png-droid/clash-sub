@@ -9,10 +9,6 @@ proxies:
     network: tcp
     tls: true
     sni: apple.com
-    reality:
-      handshake: chrome
-      public_key: E06bsx7BzUZ_rTAzcumOlAKW31EEH_GAf-OEEv7PFAs
-      short_id: beb4be35
 
 proxy-groups:
   - name: "Auto"
