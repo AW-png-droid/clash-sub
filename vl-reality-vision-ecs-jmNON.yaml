@@ -21,4 +21,4 @@ proxy-groups:
       - "vl-reality-vision-ecs-jmNON"
 
 rules:
-  - MATCH,Auto
+  - MATCH, Auto
