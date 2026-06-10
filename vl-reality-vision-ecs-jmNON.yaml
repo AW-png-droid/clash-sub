@@ -9,12 +9,4 @@ proxies:
     network: tcp
     tls: true
     sni: apple.com
-
-proxy-groups:
-  - name: "Auto"
-    type: select
-    proxies:
-      - "vl-reality-vision-ecs-jmNON"
-
-rules:
-  - MATCH, Auto
+    ws-opts: {}
