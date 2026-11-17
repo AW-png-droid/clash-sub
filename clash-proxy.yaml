@@ -1,0 +1,15 @@
+proxies:
+  - name: "YY66Y1"
+    type: vless
+    server: 216.36.103.25
+    port: 443
+    uuid: d0ac4fea-b678-4bc6-94f4-9893e5303632
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.nvidia.com
+    client-fingerprint: safari
+    reality-opts:
+      public-key: MqLbrrPTVGzqUGqtkLZU9uVEY0cWiHAdMi-3FF_ZSHc
+      short-id: 1b9a9ac71c
